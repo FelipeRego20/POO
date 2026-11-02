@@ -38,18 +38,18 @@ Implementa o padrão arquitetural **Repository / DAO (Data Access Object)**, iso
 ## Evidências
 ### 1. Create
 
-![Foto create](Imagem_Atvd/create1.png)
-![Foto create](Imagem_Atvd/create2.png)
+![Foto create](Imagens_Atvd/create1.png)
+![Foto create](Imagens_Atvd/create2.png)
 
 ### 2. Delete
 
-![Foto Delete](Imagem_Atvd/delete1.png)
+![Foto Delete](Imagens_Atvd/delete1.png)
 
 ### 3. Update
 
-![Foto Update](Imagem_Atvd/update1.png)
+![Foto Update](Imagens_Atvd/update1.png)
 
 ### 4. Read
 
-![Foto Read](Imagem_Atvd/loadfromid1.png)
-![Foto Read](Imagem_Atvd/loadfromid2.png)
+![Foto Read](Imagens_Atvd/loadfromid1.png)
+![Foto Read](Imagens_Atvd/loadfromid2.png)
