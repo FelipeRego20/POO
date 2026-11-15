@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sun Nov 15 15:53:38 BRT 2026
+comment0.target=VeiculoRepositorio
+comment1.params=database
+comment1.target=VeiculoRepositorio(Database)
+comment2.params=database
+comment2.target=void setDatabase(Database)
+comment3.params=veiculo
+comment3.target=Veiculo create(Veiculo)
+comment4.params=veiculo
+comment4.target=void update(Veiculo)
+comment5.params=id
+comment5.target=Veiculo loadFromId(int)
+comment6.target=java.util.List loadAll()
+numComments=7

@@ -1,0 +1,10 @@
+#BlueJ class context
+#Sun Nov 15 15:22:15 BRT 2026
+comment0.target=AppView
+comment1.target=AppView()
+comment2.params=primaryStage
+comment2.target=void start(javafx.stage.Stage)
+comment3.target=void stop()
+comment4.params=args
+comment4.target=void run(java.lang.String[])
+numComments=5

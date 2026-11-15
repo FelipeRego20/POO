@@ -1,0 +1,19 @@
+#BlueJ class context
+#Sun Nov 15 15:22:12 BRT 2026
+comment0.target=Veiculo
+comment1.target=int getId()
+comment10.params=quilometragem
+comment10.target=void setQuilometragem(double)
+comment2.params=id
+comment2.target=void setId(int)
+comment3.target=java.lang.String getNomeVeiculo()
+comment4.params=nomeVeiculo
+comment4.target=void setNomeVeiculo(java.lang.String)
+comment5.target=java.lang.String getPlacaVeiculo()
+comment6.params=placaVeiculo
+comment6.target=void setPlacaVeiculo(java.lang.String)
+comment7.target=int getAnoVeiculo()
+comment8.params=anoVeiculo
+comment8.target=void setAnoVeiculo(int)
+comment9.target=double getQuilometragem()
+numComments=11

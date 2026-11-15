@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AppController">
+   <children>
+      <MenuBar prefHeight="0.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TabPane tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <tabs>
+                <Tab text="Veículos">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0">
+                           <children>
+                              <SplitPane dividerPositions="0.688953488372093" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <Button fx:id="adicionarButton" layoutX="68.0" layoutY="182.0" mnemonicParsing="false" onAction="#onAdicionarButtonAction" text="Adicionar" />
+                                                <Button fx:id="cancelarButton" layoutX="287.0" layoutY="182.0" mnemonicParsing="false" onAction="#onCancelarButtonAction" text="Cancelar" />
+                                                <Button fx:id="salvarButton" layoutX="361.0" layoutY="182.0" mnemonicParsing="false" onAction="#onSalvarButtonAction" prefHeight="25.0" prefWidth="63.0" text="Salvar" />
+                                                <Button fx:id="atualizarButton" layoutX="212.0" layoutY="182.0" mnemonicParsing="false" onAction="#onAtualizarButtonAction" text="Atualizar" />
+                                                <Button fx:id="limparButton" layoutX="148.0" layoutY="182.0" mnemonicParsing="false" onAction="#onLimparButtonAction" text="Limpar" />
+                                                <TextField fx:id="placaField" layoutX="213.0" layoutY="25.0" prefHeight="25.0" prefWidth="210.0" />
+                                                <TextField fx:id="anoField" layoutX="213.0" layoutY="97.0" prefHeight="25.0" prefWidth="210.0" />
+                                                <TextField fx:id="carroField" layoutX="213.0" layoutY="61.0" prefHeight="25.0" prefWidth="210.0" />
+                                                <TextField fx:id="quilometragemField" layoutX="213.0" layoutY="132.0" prefHeight="25.0" prefWidth="210.0" />
+                                                <Label layoutX="68.0" layoutY="29.0" prefHeight="17.0" prefWidth="95.0" text="Placa do Veículo:" />
+                                                <Label layoutX="68.0" layoutY="65.0" text="Nome do Veículo:" />
+                                                <Label layoutX="68.0" layoutY="101.0" text="Ano do Veículo:" />
+                                                <Label layoutX="68.0" layoutY="136.0" text="Quilometragem:" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <TableView fx:id="veiculosTable" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <columns>
+                                              <TableColumn fx:id="idColumn" prefWidth="75.0" text="Id" />
+                                              <TableColumn fx:id="placaColumn" prefWidth="158.0" text="Placa" />
+                                                <TableColumn fx:id="carroColumn" prefWidth="155.0" text="Carro" />
+                                                <TableColumn fx:id="anoColumn" prefWidth="64.0" text="Ano" />
+                                                <TableColumn fx:id="quilometragemColumn" prefWidth="145.0" text="Quilometragem" />
+                                            </columns>
+                                          </TableView>
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
