@@ -27,13 +27,19 @@
 * **Cancelar/Limpar:** Aborta qualquer operação de edição ou criação em andamento, limpando os campos e bloqueando-os novamente por segurança.
 
 ## Funcionamento da Aplicação:
+
+
 ![Aplicação](Imagens/aplicacao2.png)
 ![Aplicação](Imagens/aplicacao3.png)
 * Adicionar:
+
+
 ![Aplicação](Imagens/criar1.png)
 ![Aplicação](Imagens/criar2.png)
 
 * Atualizar: 
+
+
 ![Aplicação](Imagens/atualizar1.png)
 ![Aplicação](Imagens/atualizar2.png)
 
