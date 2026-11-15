@@ -14,7 +14,7 @@
 * View é responsável exclusivamente por aquilo que o usuário vê e interage;
 * O arquivo .fxml foi feito utilizando o SceneBuilder.
 
-![Aplicação](Imagens\aplicacao1.png)
+![Aplicação](Imagens/aplicacao1.png)
 
 ## Pacote "controller"
 * Funciona como a ponte entre a interface do usuário "view" e o banco de dados "model";
@@ -27,13 +27,13 @@
 * **Cancelar/Limpar:** Aborta qualquer operação de edição ou criação em andamento, limpando os campos e bloqueando-os novamente por segurança.
 
 ## Funcionamento da Aplicação:
-![Aplicação](Imagens\aplicacao2.png)
-![Aplicação](Imagens\aplicacao3.png)
+![Aplicação](Imagens/aplicacao2.png)
+![Aplicação](Imagens/aplicacao3.png)
 * Adicionar:
-![Aplicação](Imagens\criar1.png)
-![Aplicação](Imagens\criar2.png)
+![Aplicação](Imagens/criar1.png)
+![Aplicação](Imagens/criar2.png)
 
 * Atualizar: 
-![Aplicação](Imagens\atualizar1.png)
-![Aplicação](Imagens\atualizar2.png)
+![Aplicação](Imagens/atualizar1.png)
+![Aplicação](Imagens/atualizar2.png)
 
